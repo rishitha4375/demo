@@ -1,0 +1,43 @@
+<head>
+    <style>
+        #id2{
+            
+            height:350px;
+            width:600px;
+            background-color: rgb(146, 100, 189);
+         
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            /* height: 100vh; */
+            margin: 0;
+            background-color: antiquewhite; }
+    </style>
+</head>
+
+
+<body>
+    
+    <form id="id2" style="padding: 10px;" align="center">
+        <h1>Request form</h1>
+        Fullname:<input type="text"><br><br>
+        Location:<input type="text"><br><br>
+        Pincode:<input type="number"><br><br>
+        Choose a TVS Automobile:
+        <select onchange="window.open(this.value,'_blank')" >
+            <option value="none">.....</option>
+            <option value="details.html" >TVS XL 100 Heavy Duty</a></option>
+            <option value="details.html" >XL 100 Heavy Duty Kick Start-SE</a></option>
+            <option value="details.html" >XL 100 Heavy Duty Kick Start</a></option>
+        </select><br><br>
+        Payment method: <br>
+        <input type="radio" name="method">Credit card
+       <input type="radio" name="method"> Loan<br><br>
+       <br>
+        <button type="Submit">Buy now</button>
+
+    </form>
+</body>
